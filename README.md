@@ -21,6 +21,13 @@ Get it into your program.
 const gitDescription = require('git-description');
 ```
 
+Set the repository's description.
+```js
+gitDescription.set('An awesome project.').then(() => {
+    console.log('Finished saving repo description.');
+});
+```
+
 ## Contributing
 
 See our [contributing guidelines](https://github.com/sholladay/git-description/blob/master/CONTRIBUTING.md "The guidelines for participating in this project.") for more details.
