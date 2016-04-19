@@ -1,0 +1,32 @@
+{
+  "name": "git-description",
+  "version": "0.0.0",
+  "description": "Manage a repository&#39;s description.",
+  "homepage": "https://github.com/sholladay/git-description",
+  "main": "index.js",
+  "author": {
+    "name": "Seth Holladay",
+    "url": "http://seth-holladay.com",
+    "email": "me@seth-holladay.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sholladay/git-description.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sholladay/git-description/issues",
+    "email": "me@seth-holladay.com"
+  },
+  "license": "MPL-2.0",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "fs-atomic": "0.3.0",
+    "single-trailing-newline": "1.0.0"
+  }
+}
