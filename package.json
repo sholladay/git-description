@@ -25,7 +25,7 @@
     "index.js"
   ],
   "dependencies": {
-    "fs-atomic": "0.3.0",
+    "fs-atomic": "0.4.0",
     "single-trailing-newline": "1.0.0"
   },
   "keywords": [
