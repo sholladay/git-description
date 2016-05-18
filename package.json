@@ -24,9 +24,16 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
   "dependencies": {
     "fs-atomic": "0.3.0",
     "single-trailing-newline": "1.0.0"
-  }
+  },
+  "keywords": [
+    "git",
+    "repo",
+    "repository",
+    "meta",
+    "description",
+    "tower"
+  ]
 }
