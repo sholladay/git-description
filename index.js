@@ -1,8 +1,7 @@
 'use strict';
 
-const
-    fsAtomic = require('fs-atomic'),
-    newLine = require('single-trailing-newline');
+const fsAtomic = require('fs-atomic');
+const newLine = require('single-trailing-newline');
 
 module.exports = {
     set(desc) {
