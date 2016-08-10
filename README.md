@@ -1,27 +1,29 @@
-# git-description
+# git-description [![Build status for git-description on Circle CI.](https://img.shields.io/circleci/project/sholladay/git-description/master.svg "Circle Build Status")](https://circleci.com/gh/sholladay/git-description "Git Description Builds")
 
-> Manage a repository's description.
+> Manage the description of a repository.
 
 ## Why?
 
  - Spread your intent far and wide.
- - Displayed in tools like Tower.
+ - Displayed in tools like [Tower](https://www.git-tower.com/).
  - Satisfies your inner perfectionist.
 
 ## Install
 
-````sh
+```sh
 npm install git-description --save
-````
+```
 
 ## Usage
 
 Get it into your program.
+
 ```js
 const gitDescription = require('git-description');
 ```
 
-Set the repository's description.
+Set the description of a repository.
+
 ```js
 gitDescription.set('An awesome project.').then(() => {
     console.log('Finished saving repo description.');
