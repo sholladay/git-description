@@ -1,6 +1,6 @@
 {
   "name": "git-description",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Manage the description of a repository.",
   "homepage": "https://github.com/sholladay/git-description",
   "main": "index.js",
